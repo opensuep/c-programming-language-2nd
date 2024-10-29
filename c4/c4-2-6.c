@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int x, d1, d2, d3, d4, d5;
-    scanf("%d", &x);
+    int ret, x, d1, d2, d3, d4, d5;
+    ret = scanf("%d", &x);
+    if (ret == 0 || ret == EOF) {
+        printf("wrong number!\n");
+        return 0;
+    }
     if (x < 0 || x > 99999) {
         printf("wrong number!\n");
         return 0;

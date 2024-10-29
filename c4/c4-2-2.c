@@ -8,8 +8,7 @@ int main() {
         leap = 0;
         if (year % 100 != 0)
             leap = 1;
-    }
-    else if (year % 400 != 0)
+    } else if (year % 400 != 0)
         leap = 0;
     else
         leap = 1;

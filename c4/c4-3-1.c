@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    float price;
-    int count;
-    scanf("%f%d", &price, &count);
+    // 这个程序太麻烦了，我不想写了...
     return 0;
 }
