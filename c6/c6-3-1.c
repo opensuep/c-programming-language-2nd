@@ -39,8 +39,7 @@ int main(void) {
         }
         printf("%d %c %d = ", a, op == OP_PLUS? '+': op == OP_MINUS? '-': op == OP_MUL? '*': '/', b);
         scanf("%d", &ans);
-        fflush(stdin);
-        getchar();
+        while (getchar() != '\n') {}
         switch (op) {
             case OP_PLUS:
                 if (ans == a + b) {
