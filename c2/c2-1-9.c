@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float fa, fb;
     fa = 3141.592678;
     fb = 123.4;

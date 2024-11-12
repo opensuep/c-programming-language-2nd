@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float x, y;
     printf("请输入 x 的值: ");
     scanf("%f", &x);

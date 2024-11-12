@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int year, leap;
     printf("Please input a year: ");
     scanf("%d", &year);

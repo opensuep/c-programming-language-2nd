@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int x, y;
     printf("请输入 x: ");
     scanf("%d", &x);

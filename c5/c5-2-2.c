@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int x, sum1 = 0, sum2 = 0;
     printf("请输入整数(输入0时结束输入): ");
     scanf("%d", &x);

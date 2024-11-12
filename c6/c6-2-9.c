@@ -2,7 +2,7 @@
 
 float f(float x) { return x * x * x - x * x - 1; }
 
-int main() {
+int main(void) {
     double low = 0, mid = 1.5, high = 3;
     while (high - low > 1e-8) {
         if (f(low) * f(mid) < 0) {

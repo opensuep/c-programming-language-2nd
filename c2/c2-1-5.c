@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int x, y, sum;
     printf("input x and y: ");
     scanf("%d", &x);

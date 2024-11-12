@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     double t, w, h;
     printf("input weight and height: ");
     scanf("%lf%lf", &w, &h);

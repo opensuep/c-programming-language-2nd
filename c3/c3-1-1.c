@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define pi 3.14159
 
-int main() {
+int main(void) {
     float r;
     double area;
     printf("请输入圆的半径: ");

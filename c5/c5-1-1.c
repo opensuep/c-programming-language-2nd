@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int i = 1;
     while (i <= 5) {
         printf("*****\n");

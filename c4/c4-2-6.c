@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int ret, x, d1, d2, d3, d4, d5;
     ret = scanf("%d", &x);
     if (ret == 0 || ret == EOF) {

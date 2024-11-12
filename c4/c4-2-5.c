@@ -2,7 +2,7 @@
 #define USE_IF 1
 // 改变 USE_IF 的值即可切换不同的实现
 
-int main() {
+int main(void) {
     int score, ret = scanf("%d", &score);
     if (ret == 0 || ret == EOF) {
         printf("wrong score!\n");

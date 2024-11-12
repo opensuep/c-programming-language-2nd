@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int id, s_math, s_en, s_c;
     float avg;
     FILE *fp = fopen("score_avg.txt", "w");

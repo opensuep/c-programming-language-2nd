@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main(void) {
     int count = 0;
     srand(128);
     for (int i = 0; i < 1e8; ++i) {

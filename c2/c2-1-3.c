@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     printf("春眠不觉晓\n");
     printf("        处处闻啼鸟\n");
     printf("                夜来风雨声\n");

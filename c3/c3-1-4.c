@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     char c1 = 'a', c2 = 'b', c3 = 'c';
     c1 += 2;
     c2 += 8;

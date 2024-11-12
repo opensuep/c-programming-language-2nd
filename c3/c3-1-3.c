@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float fa, fb, fc, fsum;
     double d;
     fa = 3141.592678;

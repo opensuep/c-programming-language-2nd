@@ -8,7 +8,7 @@ long double factorial(int x) {
     return result;
 }
 
-int main() {
+int main(void) {
     long double result = 0.0;
     for (int i = 1; i <= 20; ++i) {
         result += factorial(i);

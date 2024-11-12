@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     FILE *fp_in = fopen("score.txt", "r"),
          *fp_out = fopen("score_avg.txt", "w");
     int num, math, eng, clang;

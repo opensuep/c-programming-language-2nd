@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int a, b, t;
     printf("请输入 a 和 b 的值: ");
     scanf("%d%d", &a, &b);

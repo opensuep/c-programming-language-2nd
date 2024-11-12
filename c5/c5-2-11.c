@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     double count = 0.01;
     for (int i = 1; i <= 30; ++i) {
         count += count * 2.0;

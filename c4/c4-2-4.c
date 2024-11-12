@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float d1, d2, temp;
     char op;
     printf("输入 d1 op d2: ");

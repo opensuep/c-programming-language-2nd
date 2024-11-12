@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define pi 3.1415926
 
-int main() {
+int main(void) {
     double r, h, C, S, V;
     scanf("%lf%lf", &r, &h);
     C = 2 * pi * r;

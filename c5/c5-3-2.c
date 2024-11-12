@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
+int main(void) {
     srand((unsigned)time(NULL));
     int money, count;
     FILE *fp = fopen("red_packet.txt", "w");

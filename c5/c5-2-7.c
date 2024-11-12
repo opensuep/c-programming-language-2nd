@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int m, n, t, sum;
     if (m > n) {
         t = m;

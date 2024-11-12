@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     char c1, c2;
     printf("input c1 and c2: ");
     scanf("%c%c", &c1, &c2);

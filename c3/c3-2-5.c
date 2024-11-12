@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     char a, b;
     a = getchar();
     b = getchar();

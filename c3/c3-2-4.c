@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float F, C;
     scanf("%f", &F);
     C = 5.0 / 9 * (F - 32);

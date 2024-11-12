@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float fa, fb;
     printf("inout x and y: ");
     scanf("%d%d", &fa, &fb);

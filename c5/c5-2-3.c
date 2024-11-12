@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int num, k = 1;
     printf("请输入一个数: ");
     scanf("%d", &num);

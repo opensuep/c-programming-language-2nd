@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int is_alpha = 0, is_space = 0, is_digit = 0, other = 0;
     char ch = getchar();
     while (ch != '\n') {

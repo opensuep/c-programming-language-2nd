@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
+int main(void) {
     srand((unsigned)time(NULL));
     int a = rand() % 100 + 1, b = rand() % 100 + 1, op = rand() % 2;
     int t, ans, flag;

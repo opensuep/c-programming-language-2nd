@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     char ch = 'w';
     int a = 2, b = 0, c = 0;
     float x = 3.0;

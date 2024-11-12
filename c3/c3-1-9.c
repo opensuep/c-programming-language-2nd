@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int n = 100;
     float f = n + 2.5;
     double d;

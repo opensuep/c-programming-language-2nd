@@ -1,14 +1,9 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     int m, n, t;
     printf("Please enter two numbers: ");
     scanf("%d%d", &m, &n);
-    // if (m < n) {
-    //     t = m;
-    //     m = n;
-    //     n = t;
-    // }
     while (n != 0) {
         t = m;
         m = n;

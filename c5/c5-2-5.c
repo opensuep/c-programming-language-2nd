@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     long s, t, sl = 10;
     printf("Please enter s: ");
     scanf("%ld", &s);

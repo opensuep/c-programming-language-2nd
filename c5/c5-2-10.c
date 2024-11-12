@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-int main() {
+int main(void) {
     double half_pi = 1.0, i = 1.0;
     double item = 1.0 / (i * (i + 2.0));
     while (fabs(item) > 1.0e-6) {

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     float x, amax, amin;
     printf("请输入成绩(输入负数时结束): ");
     scanf("%f", &x);

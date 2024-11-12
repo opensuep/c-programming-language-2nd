@@ -12,7 +12,7 @@ int is_prime(int x) {
     return 1;
 }
 
-int main() {
+int main(void) {
     int n, m;
     scanf("%d", &n);
     m = n;

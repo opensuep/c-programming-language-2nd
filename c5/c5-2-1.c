@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define M 100
 
-int main() {
+int main(void) {
     int a = 0, b = 0;
     for (int i = 1; i <= M; i += 2) {
         a += i;
