@@ -37,9 +37,15 @@ int main(void) {
                 a = b * t;
                 break;
         }
-        printf("%d %c %d = ", a, op == OP_PLUS? '+': op == OP_MINUS? '-': op == OP_MUL? '*': '/', b);
+        printf("%d %c %d = ", a,
+               op == OP_PLUS    ? '+'
+               : op == OP_MINUS ? '-'
+               : op == OP_MUL   ? '*'
+                                : '/',
+               b);
         scanf("%d", &ans);
-        while (getchar() != '\n') {}
+        while (getchar() != '\n') {
+        }
         switch (op) {
             case OP_PLUS:
                 if (ans == a + b) {

@@ -7,6 +7,6 @@ int main(void) {
         a += i;
         b += i + 1;
     }
-    printf("偶数之和是: %d\n", b);
-    printf("奇数之和是: %d\n", a);
+    printf("偶数之和是 %d\n", b);
+    printf("奇数之和是 %d\n", a);
 }

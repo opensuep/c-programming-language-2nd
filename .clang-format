@@ -1,4 +1,6 @@
 ---
 BasedOnStyle: LLVM
 IndentWidth: 4
+IndentCaseBlocks: true
+IndentCaseLabels: true
 ---

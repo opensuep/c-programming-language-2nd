@@ -2,7 +2,7 @@
 
 int main(void) {
     int a, b, t;
-    printf("请输入 a、b 的值: ");
+    printf("请输入 a 和 b 的值: ");
     scanf("%d%d", &a, &b);
     printf("交换前: a=%d, b=%d\n", a, b);
     t = a;

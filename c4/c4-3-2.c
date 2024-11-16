@@ -14,12 +14,12 @@ int main(void) {
     printf("%d %c %d = ", a, op == 0 ? '+' : '-', b);
     scanf("%d", &ans);
     switch (op) {
-    case 0:
-        flag = ans == a + b;
-        break;
-    case 1:
-        flag = ans == a - b;
-        break;
+        case 0:
+            flag = ans == a + b;
+            break;
+        case 1:
+            flag = ans == a - b;
+            break;
     }
     if (flag) {
         printf("correct!\n");

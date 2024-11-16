@@ -12,7 +12,7 @@ int main(void) {
         }
         scanf("%d", &x);
     }
-    printf("大于0的整数之和为:%d\n", sum1);
-    printf("小于0的整数之和为:%d\n", sum2);
+    printf("大于0的整数之和为 %d\n", sum1);
+    printf("小于0的整数之和为 %d\n", sum2);
     return 0;
 }

@@ -2,7 +2,7 @@
 
 int main(void) {
     double t, w, h;
-    printf("input weight and height: ");
+    printf("输入体重和身高: ");
     scanf("%lf%lf", &w, &h);
     t = w / (h * h);
     if (t < 18) {

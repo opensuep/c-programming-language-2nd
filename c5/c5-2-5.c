@@ -2,7 +2,7 @@
 
 int main(void) {
     long s, t, sl = 10;
-    printf("Please enter s: ");
+    printf("please enter s: ");
     scanf("%ld", &s);
     t = s % 10;
     while (s > 0) {
@@ -10,6 +10,6 @@ int main(void) {
         t = s % 10 * sl + t;
         sl *= 10;
     }
-    printf("The result is: %ld\n", t);
+    printf("the result is: %ld\n", t);
     return 0;
 }
