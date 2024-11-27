@@ -5,7 +5,7 @@
 int main(void) {
     srand((unsigned)time(NULL));
     int money, count;
-    FILE *fp = fopen("red_packet.txt", "w");
+    FILE* fp = fopen("red_packet.txt", "w");
     scanf("%d%d", &money, &count);
     fprintf(fp, "%d %d\n", money, count);
     for (int i = 1; i <= count; ++i) {

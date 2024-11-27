@@ -4,7 +4,7 @@
 #include <math.h>
 #include <stdio.h>
 
-void sort(int *a, int *b, int *c) {
+void sort(int* a, int* b, int* c) {
     // 将 3 个数从小到大依次排序
     int d;
     if (*a > *b) {
