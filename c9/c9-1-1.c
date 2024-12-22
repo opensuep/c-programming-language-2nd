@@ -5,6 +5,6 @@ int main(void) {
     for (int i = 0; i < 8; ++i) {
         printf("%c", ch[i]);
     }
-    printf("\n数组 ch 的大小为: %lu\n", sizeof(ch) / sizeof(char));
+    printf("\n数组 ch 的大小为 %lu\n", sizeof(ch) / sizeof(char));
     return 0;
 }
